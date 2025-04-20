@@ -1,0 +1,2 @@
+# ActionBarMsg
+使用ActionBar展示文本内容，基于Bukkit、PlaceholderAPI、ProtocolLib实现
