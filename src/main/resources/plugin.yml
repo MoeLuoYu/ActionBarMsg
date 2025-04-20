@@ -1,0 +1,27 @@
+name: ActionBarMsg
+main: xyz.moeluoyu.actionbarmsg.Main
+version: 1.0
+author: MoeLuoYu
+description: A plugin to show action bar messages
+api-version: 1.18
+commands:
+  ab:
+    description: Toggle the action bar display
+    usage: /<command>
+    permission: actionbarmsg.ab
+    permission-message: You don't have permission to use this command.
+  abreload:
+    description: Reload the action bar configuration
+    usage: /<command>
+    permission: actionbarmsg.reload
+    permission-message: You don't have permission to use this command.
+permissions:
+  actionbarmsg.ab:
+    description: Allows the player to toggle the action bar display
+    default: true
+  actionbarmsg.reload:
+    description: Allows the player to reload the action bar configuration
+    default: op
+depend:
+  - PlaceholderAPI
+  - ProtocolLib
